@@ -1,12 +1,22 @@
+/* UTILITIES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.btn {
+  width: 146px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  background-color: #118df0;
+  border: none;
+  border-radius: 6%;
+}
 
 /* PAGE FORMATS */
 .container {
-  widows: 100%;
+  width: 100%;
   max-width: 1030px;
   margin: 0 auto;
 }
@@ -77,4 +87,16 @@
   .col-xl-3 {
     width: calc(100% / 12 * 3);
   }
+}
+
+/* HEADER */
+#logobly-logo {
+  width: 110px;
+  height: 50px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
 }
