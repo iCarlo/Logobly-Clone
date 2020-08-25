@@ -132,6 +132,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .main-hero-content h1 {
   font-size: 55px;
@@ -157,4 +158,17 @@ form {
   padding: 0px 60px 0px 20px;
   font-size: 20px;
   font-weight: 400;
+}
+.ratings {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.ratings img {
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
 }
