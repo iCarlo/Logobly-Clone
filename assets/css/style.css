@@ -136,39 +136,60 @@ form {
 }
 .main-hero-content h1 {
   font-size: 55px;
+  font-weight: 200;
   color: white;
   margin-top: 66px;
 }
 .main-hero-content h4 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 100;
   color: white;
   margin: 16px 0px;
+}
+.main-hero-content form {
+  width: 553px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 4px 0px 4px;
 }
 .btn-main-hero {
   font-size: 20px;
   height: 70px;
+  width: 173px;
 }
 .main-hero-content input {
   height: 70px;
-  width: 357px;
+  width: 360px;
   border: none;
   border-radius: 3%;
-  margin-right: 15px;
   padding: 0px 60px 0px 20px;
   font-size: 20px;
   font-weight: 400;
 }
 .ratings {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   color: white;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 100;
   margin-top: 30px;
+  align-items: center;
 }
 .ratings img {
   width: 40px;
   height: 40px;
-  margin-right: 14px;
+  margin-right: 12px;
+}
+.ratings span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-hero-img {
+  display: flex;
+  justify-content: center;
+  top: 0px;
+}
+.main-hero-img img {
+  width: 1200px;
+  height: auto;
 }
