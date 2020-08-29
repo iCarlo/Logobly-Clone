@@ -35,6 +35,7 @@ form {
   background-color: #118df0;
   border: none;
   border-radius: 6%;
+  cursor: pointer;
 }
 
 /* PAGE FORMATS */
@@ -156,6 +157,7 @@ form {
   font-size: 20px;
   height: 70px;
   width: 173px;
+  font-weight: 400s;
 }
 .main-hero-content input {
   height: 70px;
@@ -171,25 +173,55 @@ form {
   flex-direction: row;
   justify-content: center;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 100;
   margin-top: 30px;
   align-items: center;
 }
 .ratings img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-right: 12px;
 }
 .ratings span {
   font-family: Arial, Helvetica, sans-serif;
 }
-.main-hero-img {
+.hero-img-container {
   display: flex;
   justify-content: center;
-  top: 0px;
 }
-.main-hero-img img {
-  width: 1200px;
-  height: auto;
+.main-hero-img {
+  background-image: url("../img/Logobly_brand_package_image_08.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 1200px auto;
+  width: 100%;
+  height: 46vh;
+}
+@media (max-width: 768px) {
+  .main-hero-content input,
+  .ratings {
+    display: none;
+    cursor: none;
+  }
+  .main-hero-content form {
+    width: 553px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 4px 0px 4px;
+  }
+  .main-hero-img {
+    background-image: url("../img/Logobly_brand_package_image_08.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 27vh;
+  }
+  .main-hero-content h1 {
+    font-size: 55px;
+    font-weight: 200;
+    color: white;
+    margin-top: 20px;
+  }
 }
