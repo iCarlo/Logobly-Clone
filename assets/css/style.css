@@ -64,54 +64,7 @@ form {
   width: calc(100% / 12 * 3);
 }
 
-/* RESPONSIVENESS */
-@media (min-width: 576px) {
-  .col-sm-12 {
-    width: calc(100% / 12 * 12);
-  }
-  .col-sm-6 {
-    width: calc(100% / 12 * 6);
-  }
-}
-@media (min-width: 768px) {
-  .col-md-12 {
-    width: calc(100% / 12 * 12);
-  }
-  .col-md-6 {
-    width: calc(100% / 12 * 6);
-  }
-  .col-md-4 {
-    width: calc(100% / 12 * 4);
-  }
-}
-@media (min-width: 992px) {
-  .col-lg-12 {
-    width: calc(100% / 12 * 12);
-  }
-  .col-lg-6 {
-    width: calc(100% / 12 * 6);
-  }
-  .col-lg-4 {
-    width: calc(100% / 12 * 4);
-  }
-  .col-lg-3 {
-    width: calc(100% / 12 * 3);
-  }
-}
-@media (min-width: 1030px) {
-  .col-xl-12 {
-    width: calc(100% / 12 * 12);
-  }
-  .col-xl-6 {
-    width: calc(100% / 12 * 6);
-  }
-  .col-xl-4 {
-    width: calc(100% / 12 * 4);
-  }
-  .col-xl-3 {
-    width: calc(100% / 12 * 3);
-  }
-}
+
 
 /* HEADER */
 #logobly-logo {
@@ -198,6 +151,63 @@ form {
   width: 100%;
   height: 46vh;
 }
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS AND MEDIA QUERIES  */
+@media (min-width: 576px) {
+  .col-sm-12 {
+    width: calc(100% / 12 * 12);
+  }
+  .col-sm-6 {
+    width: calc(100% / 12 * 6);
+  }
+}
+@media (min-width: 768px) {
+  .col-md-12 {
+    width: calc(100% / 12 * 12);
+  }
+  .col-md-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-md-4 {
+    width: calc(100% / 12 * 4);
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-12 {
+    width: calc(100% / 12 * 12);
+  }
+  .col-lg-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-lg-4 {
+    width: calc(100% / 12 * 4);
+  }
+  .col-lg-3 {
+    width: calc(100% / 12 * 3);
+  }
+}
+@media (min-width: 1030px) {
+  .col-xl-12 {
+    width: calc(100% / 12 * 12);
+  }
+  .col-xl-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-xl-4 {
+    width: calc(100% / 12 * 4);
+  }
+  .col-xl-3 {
+    width: calc(100% / 12 * 3);
+  }
+}
+
 @media (max-width: 768px) {
   .main-hero-content input,
   .ratings {
@@ -224,4 +234,12 @@ form {
     color: white;
     margin-top: 20px;
   }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
 }
