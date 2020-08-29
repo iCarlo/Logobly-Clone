@@ -64,8 +64,6 @@ form {
   width: calc(100% / 12 * 3);
 }
 
-
-
 /* HEADER */
 #logobly-logo {
   width: 110px;
@@ -152,13 +150,6 @@ form {
   height: 46vh;
 }
 
-
-
-
-
-
-
-
 /* RESPONSIVENESS AND MEDIA QUERIES  */
 @media (min-width: 576px) {
   .col-sm-12 {
@@ -242,4 +233,5 @@ form {
     align-items: center;
     justify-content: space-between;
     margin: 20px 20px;
+  }
 }
