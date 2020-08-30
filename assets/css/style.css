@@ -172,20 +172,25 @@ form {
   height: auto;
 }
 
-/* SUB-HERO-1 */
-#sub-hero-1 {
+/* SUB-HEROS */
+.sub-hero {
   background-color: #f8f8f8;
   padding-top: 50px;
 }
-.sub-hero-content {
+.sub-hero-content-left {
   display: flex;
   flex-direction: row-reverse;
+  margin: 0px 10px;
+}
+.sub-hero-content-right {
+  display: flex;
   margin: 0px 10px;
 }
 .sub-hero-cta {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 60px;
 }
 .sub-hero-content h2 {
   font-size: 45px;
@@ -282,7 +287,6 @@ form {
   }
   .sub-hero-content {
     background-color: #f8f8f8;
-    padding-top: 50px;
     margin: 0px 40px;
   }
   .sub-hero-img {
