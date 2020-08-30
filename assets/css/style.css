@@ -161,10 +161,15 @@ form {
 .clients-header {
   display: flex;
   justify-content: center;
+  margin-top: 45px;
 }
 .clients-header h6 {
   font-size: 16px;
   font-weight: lighter;
+}
+.clients-img {
+  width: 100%;
+  height: auto;
 }
 
 /* RESPONSIVENESS AND MEDIA QUERIES  */
@@ -218,7 +223,8 @@ form {
 
 @media (max-width: 768px) {
   .main-hero-content input,
-  .ratings {
+  .ratings,
+  .clients-content {
     display: none;
     cursor: none;
   }
