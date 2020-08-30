@@ -215,6 +215,28 @@ form {
   height: auto;
 }
 
+/* TESTIMONIALS */
+.testimonials-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 105px;
+  text-align: center;
+}
+.testimonials-title h2 {
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: normal;
+}
+.testimonials-title span {
+  font-size: 25px;
+  line-height: 38px;
+  color: #f0ad4e;
+  font-weight: 300;
+}
+.testimonials-stars {
+  margin: 30px 0px;
+}
 /* RESPONSIVENESS AND MEDIA QUERIES  */
 @media (min-width: 576px) {
   .col-sm-12 {
@@ -270,6 +292,7 @@ form {
   .clients-content {
     display: none;
     cursor: none;
+    pointer-events: none;
   }
   .main-hero-content form {
     width: 553px;
