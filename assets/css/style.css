@@ -124,14 +124,21 @@ form {
   flex-direction: row;
   justify-content: center;
   color: white;
-  font-size: 25px;
-  font-weight: 100;
-  margin-top: 30px;
+  margin: 20px 0px;
   align-items: center;
 }
+.ratings h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.ratings span {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 3px;
+}
 .ratings img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin-right: 12px;
 }
 .ratings span {
@@ -148,6 +155,16 @@ form {
   background-size: 1200px auto;
   width: 100%;
   height: 46vh;
+}
+
+/* CLIENTS */
+.clients-header {
+  display: flex;
+  justify-content: center;
+}
+.clients-header h6 {
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 /* RESPONSIVENESS AND MEDIA QUERIES  */
