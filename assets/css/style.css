@@ -209,6 +209,12 @@ form {
   height: auto;
 }
 
+/* WORK-PREVIEWS */
+.work-preview-img {
+  width: 100%;
+  height: auto;
+}
+
 /* RESPONSIVENESS AND MEDIA QUERIES  */
 @media (min-width: 576px) {
   .col-sm-12 {
