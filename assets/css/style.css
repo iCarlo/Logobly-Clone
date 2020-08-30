@@ -316,6 +316,40 @@ form {
   border-radius: 50%;
 }
 
+/* HOW-LOGOBLY-WORKS */
+#how-logobly-works {
+  padding: 105px 0px 105px 0px;
+}
+.how-logobly-works-content {
+  text-align: center;
+  padding: 10px;
+}
+.how-logobly-works-content h2 {
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.how-logobly-works-content h3 {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+.how-logobly-works-content p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #868484;
+  margin-bottom: 20px;
+}
+.working-steps {
+  padding: 10px;
+}
+.working-steps img {
+  height: 40px;
+  width: auto;
+}
+
 /* RESPONSIVENESS AND MEDIA QUERIES  */
 @media (min-width: 576px) {
   .col-sm-12 {
@@ -405,7 +439,8 @@ form {
     height: auto;
   }
   .sub-hero-content h2,
-  .testimonials-title h2 {
+  .testimonials-title h2,
+  .how-logobly-works-content h2 {
     font-size: 30px;
     line-height: 36px;
     font-weight: 500;
@@ -413,8 +448,14 @@ form {
   .testimonials-content {
     margin: 0px 40px;
   }
-  #testimonials {
+  #testimonials,
+  #how-logobly-works {
     padding: 40px 0px 40px;
+  }
+  .working-steps h3 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 500;
   }
 }
 
