@@ -26,6 +26,11 @@ form {
   margin-top: 10px;
 }
 
+#logobly-logo {
+  width: 110px;
+  height: 50px;
+}
+
 .btn {
   width: 146px;
   height: 50px;
@@ -75,10 +80,6 @@ form {
 }
 
 /* HEADER */
-#logobly-logo {
-  width: 110px;
-  height: 50px;
-}
 .navbar {
   display: flex;
   align-items: center;
@@ -484,6 +485,34 @@ form {
   margin: 24px 0px 40px 0px;
 }
 
+/* FOOTER */
+footer {
+  padding: 105px 0px 105px 0px;
+}
+.footer-column {
+  padding: 10px 0px 30px 10px;
+}
+.footer-column h6 {
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer-column li {
+  list-style: none;
+  padding: 18px 0px 8px 0px;
+}
+.footer-column a {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  color: grey;
+}
+.footer-column a:hover {
+  color: #118df0;
+}
+
 /* RESPONSIVENESS AND MEDIA QUERIES  */
 @media (min-width: 576px) {
   .col-sm-12 {
@@ -502,6 +531,9 @@ form {
   }
   .col-md-4 {
     width: calc(100% / 12 * 4);
+  }
+  .col-md-3 {
+    width: calc(100% / 12 * 3);
   }
 }
 @media (min-width: 992px) {
@@ -584,13 +616,15 @@ form {
     font-weight: 500;
   }
   .testimonials-content,
-  .features-content {
+  .features-content,
+  .footer-content {
     margin: 0px 40px;
   }
   #testimonials,
   #how-logobly-works,
   #features,
-  #faq {
+  #faq,
+  footer {
     padding: 40px 0px 40px;
   }
   .working-steps h3 {
