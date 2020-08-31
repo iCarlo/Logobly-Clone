@@ -420,7 +420,7 @@ form {
   font-size: 18px;
   line-height: 29px;
   font-weight: 300;
-  color: #525252;
+  color: #868484;
 }
 .faq-entry h4 {
   font-size: 24px;
@@ -549,6 +549,10 @@ form {
   }
   .features-entry {
     display: block;
+  }
+  .faq-column:last-child p:last-child,
+  .faq-column:last-child .faq-entry:last-child {
+    margin-bottom: 0;
   }
 }
 
