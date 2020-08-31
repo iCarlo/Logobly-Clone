@@ -160,7 +160,7 @@ form {
   background-repeat: no-repeat;
   background-size: 1200px auto;
   width: 100%;
-  height: 46vh;
+  height: 340px;
 }
 
 /* CLIENTS */
@@ -587,7 +587,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 27vh;
+    height: 215px;
   }
   .main-hero-content h1 {
     font-size: 55px;
