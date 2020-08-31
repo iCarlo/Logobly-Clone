@@ -41,6 +41,12 @@ form {
   color: rgb(231, 227, 227);
   background-color: #0877d3;
 }
+.btn-lg {
+  font-size: 20px;
+  height: 70px;
+  width: 173px;
+  font-weight: 400s;
+}
 
 /* PAGE FORMATS */
 .container {
@@ -108,12 +114,6 @@ form {
   display: flex;
   justify-content: space-between;
   padding: 0px 4px 0px 4px;
-}
-.btn-main-hero {
-  font-size: 20px;
-  height: 70px;
-  width: 173px;
-  font-weight: 400s;
 }
 .main-hero-content input {
   height: 70px;
@@ -458,6 +458,30 @@ form {
   color: #065fa8;
 }
 
+/* CALL-TO-ACTION */
+#cta {
+  background-color: #7dc99b;
+  background-image: url("../img/Logobly_header_image_03-1.jpg	");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  padding-top: 60px;
+}
+#cta h2 {
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 500;
+}
+#cta h4 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  margin: 24px 0px 40px 0px;
+}
+
 /* RESPONSIVENESS AND MEDIA QUERIES  */
 @media (min-width: 576px) {
   .col-sm-12 {
@@ -551,7 +575,8 @@ form {
   .testimonials-title h2,
   .how-logobly-works-content h2,
   .features-content h2,
-  .faq-content h2 {
+  .faq-content h2,
+  #cta h2 {
     font-size: 30px;
     line-height: 36px;
     font-weight: 500;
@@ -580,6 +605,9 @@ form {
   .faq-column:last-child p:last-child,
   .faq-column:last-child .faq-entry:last-child {
     margin-bottom: 0;
+  }
+  #cta {
+    background-size: contain;
   }
 }
 
