@@ -617,8 +617,12 @@ footer {
   }
   .testimonials-content,
   .features-content,
-  .footer-content {
-    margin: 0px 40px;
+  .footer-content,
+  .how-logobly-works-content {
+    margin: 0px 30px;
+  }
+  .faq-content {
+    margin: 0px 10px;
   }
   #testimonials,
   #how-logobly-works,
