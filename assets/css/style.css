@@ -432,6 +432,32 @@ form {
   margin-left: 18px;
 }
 
+/* SERVICES */
+#services {
+  padding: 50px 0px 50px 0px;
+}
+.services-column {
+  padding: 10px;
+}
+.services-entry {
+  margin: 32px 0px 12px 0px;
+}
+.services-entry:first-child {
+  margin-top: 0px;
+}
+.services-entry p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 100;
+}
+.services-entry a {
+  text-decoration: none;
+  color: #0877d3;
+}
+.services-entry a:hover {
+  color: #065fa8;
+}
+
 /* RESPONSIVENESS AND MEDIA QUERIES  */
 @media (min-width: 576px) {
   .col-sm-12 {
@@ -484,7 +510,8 @@ form {
 @media (max-width: 768px) {
   .main-hero-content input,
   .ratings,
-  .clients-content {
+  .clients-content,
+  #services {
     display: none;
     cursor: none;
     pointer-events: none;
